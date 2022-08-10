@@ -1,4 +1,4 @@
-//KAHNS ALGO CAN ALSO BE USED
+//KAHNS ALGO CAN ALSO BE USED(bfs)
 #include<bits/stdc++.h>
 bool dfs(unordered_map<int, list<int>>&adj,unordered_map<int,bool>&vis, unordered_map<int,bool>&visdfs, int node){
     vis[node]=1;
